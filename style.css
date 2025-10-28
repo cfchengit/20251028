@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fefae0;
+}
+
+canvas {
+  display: block;
+}
+
+button {
+  padding: 10px 15px;
+      font-size: 28px; /* 選項文字大小調整為 28px */
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  font-family: 'Noto Sans TC', sans-serif;
+      color: #283618; /* 選項文字顏色調整為 #283618 */
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
